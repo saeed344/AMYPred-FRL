@@ -1017,7 +1017,7 @@ def test(clf, X, y, Xt, yt):
 
 # AAC, DPC, APAAC,PAAC,DDE,GAAC,KSCtraid, Ctraid, GDPC, CTDC, CTDD, CTDT,
 header = []
-fasta = read_protein_sequences('TR_P_132.fasta')
+fasta = read_protein_sequences('data/TR_P_132.fasta')
 feat0, h = AAC(fasta)
 header.append(h)
 allfeat_pos = feat0
@@ -1068,7 +1068,7 @@ allfeat_pos = np.concatenate((allfeat_pos,feat10),axis=1)
 allfeat_head = allfeat_head + header[10]
 CTD_featurP=np.concatenate((feat3,feat4,feat5),axis=1)
 
-fasta = read_protein_sequences('TR_N_305.fasta')
+fasta = read_protein_sequences('data/TR_N_305.fasta')
 feat0, headerx = AAC(fasta)
 allfeat_neg = feat0
 feat1, headerx = DPC(fasta,0)
@@ -1109,7 +1109,7 @@ for i in range(0, len(y)):
 ix = np.array(ix)
 # Generate Test features
 header = []
-fasta = read_protein_sequences('TS_P_33.fasta')
+fasta = read_protein_sequences('data/TS_P_33.fasta')
 feat0, h = AAC(fasta)
 header.append(h)
 allfeat_pos = feat0
@@ -1160,7 +1160,7 @@ allfeat_pos = np.concatenate((allfeat_pos,feat10),axis=1)
 allfeat_head = allfeat_head + header[10]
 
 
-fasta = read_protein_sequences('TS_N_77.fasta')
+fasta = read_protein_sequences('data/TS_N_77.fasta')
 feat0, header = AAC(fasta)
 allfeat_neg = feat0
 feat1, header = DPC(fasta, 0)
@@ -1309,7 +1309,7 @@ def calculate_performace(test_num, pred_y, labels):
 
 xtest = np.vstack(Xt)
 y_test = np.vstack(yt)
-ldmodel = pickle.load(open("pima.pickle_model_svm_PF.dat", "rb"))
+ldmodel = pickle.load(open("model/pima.pickle_model_svm_PF.dat", "rb"))
 print("Loaded model from disk")
 Sepscores = []
 y_score = ldmodel.predict_proba(xtest)
