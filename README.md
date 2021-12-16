@@ -18,7 +18,11 @@ AMYPred-FRL is a novel approach for accurate prediction of amyloid proteins by u
 script test
 #####################
 To check whether the project can work normally, we can run
-Stand_alone_AmyPredFRL using pycharm
+Stand_alone_AmyPredFRL.py using pycharm
+
+#####################
+To test blind please run
+Blind_test.py using pycharm provide data in fasta format.
  
 
 
