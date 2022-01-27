@@ -1,15 +1,28 @@
-# AMYPred-FRL
   ##AMYPred-FRL
 
 AMYPred-FRL is a novel approach for accurate prediction of amyloid proteins by using feature representation learning
 
 ###AMYPred-FRL uses the following dependencies:
+Installation
+Download AMYPred-FRL by
+git clone https://github.com/saeed344/AMYPred-FRL
 
- * Python 3.6
- * numpy
- * scipy
- * scikit-learn
- * pandas
+Installation has been tested in OS win 10 with Python 3.8.3
+
+Since the package is written in python 3.8.3, python 3.8.3 with the pip tool must be installed first.
+ AMYPred-FRL uses the following dependencies: numpy, scipy, scikit-learn, pandas, Xgboost 
+
+You can install these packages first, by the following commands:
+
+pip install numpy
+
+pip install scipy
+
+pip install scikit-learn
+
+pip install pandas
+
+pip install Xgboost
 
 ###Guiding principles: 
 
@@ -18,11 +31,11 @@ AMYPred-FRL is a novel approach for accurate prediction of amyloid proteins by u
 script test
 #####################
 To check whether the project can work normally, we can run
-Stand_alone_AmyPredFRL.py using pycharm
 
-#####################
-To test blind please run
-Blind_test.py using pycharm provide data in fasta format.
+Stand_alone_AmyPredFRL using pycharm
+
+To check blind dataset sequnces try Blind_test.py
+
  
 
 
