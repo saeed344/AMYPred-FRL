@@ -26,6 +26,16 @@ pip install pandas
 
 pip install Xgboost
 
+File Description
+1. data
+The ‘data’ file contains all datasets used in this work, including training set and independent set.
+3. model
+The ‘model’ file contains save model.
+4. Blind_test
+The ‘Blind_test’ file contains the code for getting Blind dataset results.
+5. model_test
+The ‘model_test’ file contains code for evaluation the prediction ability of the model on existing indpendent data.
+
 ###Guiding principles: 
 
 **The dataset file contains  TR_P_132.fasta, TR_N_305.fasta, TS_P_33.fasta, TS_N_77.fasta.
