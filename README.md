@@ -1,7 +1,7 @@
   ##AMYPred-FRL
 
-AMYPred-FRL is a novel approach for accurate prediction of amyloid proteins by using feature representation learning
-In this research study we combined six well-known ML algorithms (extremely randomized tree, extreme gradient boosting, k-nearest neighbor, logistic regression, random forest, and support vector machine) with ten different sequence-based feature descriptors to generate 60 probabilistic features (PFs), as opposed to state-of-the-art methods developed by the single feature-based approach. The logistic regression recursive feature elimination (LR-RFE) method was used to find the optimal m number of 60 PFs in order to improve the predictive performance. Finally, using the meta-predictor approach, the 20 selected PFs were fed into a logistic regression method to create the final hybrid model (AMYPred-FRL).
+AMYPred-FRL is a novel approach to accurately predict amyloid proteins using feature representation learning. In this research study, we combined six well-known ML algorithms with ten different sequence descriptors to generate generate 60 probabilistic features (PFs), as opposed to state-of-the-art methods developed by the single feature-based approach.  Logistic Regression Recursive Characteristic Elimination (LR-RFE) method is used to find the optimal number of m feature from 60 PF to improve prediction efficiency. Finally, the 20 selected PFs were feed into the random forest method using a meta-predictor approach to construct the final model
+
 ###AMYPred-FRL uses the following dependencies:
 Installation
 
