@@ -31,7 +31,7 @@ File Description
 The ‘data’ file contains all datasets used in this work, including training set and independent set.
 3. model
 The ‘model’ file contains save model.
-4. Blind_test
+4. Blind_test.rar
 The ‘Blind_test’ file contains the code for getting Blind dataset results.
 5. model_test
 The ‘model_test’ file contains code for evaluation the prediction ability of the model on existing indpendent data.
